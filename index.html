@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Proyectos del Grupo — Índice</title>
+  <meta name="description" content="Índice principal que distribuye los proyectos en 4 páginas, 4 por página.">
+  <style>
+    :root{
+      --bg:#0b0e1a; --panel:#121733; --text:#e6e8f0; --muted:#9aa3b2;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);
+      font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Arial,sans-serif}
+    .container{max-width:720px;margin:0 auto;padding:24px}
+    h1{margin:0 0 12px;font-weight:600}
+    p{margin:0 0 24px;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+    .card{display:block;padding:16px;background:var(--panel);border:1px solid #232743;border-radius:12px;
+      text-decoration:none;color:inherit;transition:transform .12s ease,border-color .12s ease,box-shadow .12s ease}
+    .card:hover{transform:translateY(-2px);border-color:#2c3257;box-shadow:0 10px 22px rgba(0,0,0,.25)}
+    .meta{margin-top:28px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Proyectos del Grupo</h1>
+    <p>Índice principal. Los proyectos se reparten en 4 páginas con 4 proyectos cada una.</p>
+    <nav class="grid">
+      <a class="card" href="page-a.html">Página A</a>
+      <a class="card" href="page-b.html">Página B</a>
+      <a class="card" href="page-c.html">Página C</a>
+      <a class="card" href="page-d.html">Página D</a>
+    </nav>
+  </main>
+</body>
+</html>
